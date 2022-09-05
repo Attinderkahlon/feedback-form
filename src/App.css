@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.emoji {
+  font-size: 40px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #fafafa;
+}
+
+.center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #4527a0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
